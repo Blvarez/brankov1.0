@@ -1,0 +1,945 @@
+/*BACKGROUND*/
+/*html, body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: scroll;
+}
+*/
+
+
+body {
+    margin: 0px;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*NAVBAR*/
+
+.logo {
+    text-decoration: none;
+    color: #DAEDFF;
+    margin-top: 4px;
+    margin-left: 10px;
+    position: absolute;
+    text-shadow: 7px 4px 5px blue;
+    font-size: 30px;
+
+}
+
+.Iconos {
+    color: #DAEDFF;
+    height: 16px;
+}
+
+nav {
+    background-color: #1581ED;
+    height: 40px;
+    margin: 0px;
+}
+
+nav ul {
+    float: right;
+    margin-top: 10px;
+    color: #DAEDFF;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #DAEDFF;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+li a.active,
+li a:hover {
+    background: blue;
+    transition: .5s;
+}
+
+.checkbtn {
+    color: #DAEDFF;
+    float: right;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 10px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*SECCION 1*/
+
+.imagenMia
+{
+    border-radius: 30px;
+}
+
+#seccion1 {
+    background-image: linear-gradient(120deg, #DAEDFF 0%, #c2e9fb 100%);
+    height: 650px;
+    padding: 0;
+    margin: 0;
+    color: #1581ED;
+}
+
+.primerTitulo {
+    font-size: 74px;
+    margin-top: 105px;
+    color: white;
+}
+
+.segundoTitulo {
+    margin-top: -68px;
+    font-size: 38px;
+    color: white;
+}
+
+.tercerTitulo {
+    margin-top: -23px;
+    font-size: 28px;
+    color: white;
+}
+
+section {
+    height: 550px;
+}
+
+section img {
+    float: left;
+    height: 300px;
+    margin-top: 90px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+
+}
+
+.textoPresen {
+    color: #1581ED;
+    margin-left: 400px;
+    margin-bottom: 25px;
+    position: absolute;
+    margin-top: 160px;
+}
+
+.tituloAcerca {
+    text-decoration: underline;
+}
+
+.textoAcerca {
+    color: #1581ED;
+    margin-top: 130px;
+    margin-left: 150px;
+    margin-right: 150px;
+    position: absolute;
+    margin-top: 400px;
+}
+
+
+/*SECCION 2*/
+
+#seccion2 {
+    background-image: linear-gradient(120deg, #1581ED 0%, #c2e9fb 100%);
+    margin-top: -16px;
+    height: 650px;
+}
+
+
+.primerTituloSC {
+    margin-left: 550px;
+    margin-top: 20px;
+    position: absolute;
+    color: #DAEDFF;
+    text-decoration: underline;
+}
+
+.lenguajes {
+    float: left;
+    margin-top: 50px;
+    margin-left: 120px;
+    color: #DAEDFF;
+}
+
+.container {
+    width: 400px;
+    background-color: #007EFB;
+}
+
+.skills {
+    text-align: right;
+    padding: 10px;
+    color: #1581ED;
+    font-weight: bold;
+}
+
+.python {
+    background-color: #DAEDFF;
+    animation: fillpython 2s forwards;
+}
+
+.PYTHONN {
+    position: absolute;
+    margin-top: -10px;
+}
+
+@keyframes fillpython {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.java {
+    background-color: #DAEDFF;
+    animation: filljava 2s forwards;
+}
+
+.JAVAA {
+    position: absolute;
+    margin-top: 70px;
+}
+
+@keyframes filljava {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.sql {
+    background-color: #DAEDFF;
+    animation: fillsql 2s forwards;
+}
+
+.SQLL {
+    position: absolute;
+    margin-top: 150px;
+}
+
+@keyframes fillsql {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.javascript {
+    background-color: #DAEDFF;
+    animation: filljavascript 2s forwards;
+}
+
+.JAVASCRIPTT {
+    position: absolute;
+    margin-top: 230px;
+}
+
+@keyframes filljavascript {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.html {
+    background-color: #DAEDFF;
+    animation: fillhtml 2s forwards;
+}
+
+.HTMLL {
+    position: absolute;
+    margin-top: 310px;
+}
+
+@keyframes fillhtml {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.css {
+    background-color: #DAEDFF;
+    animation: fillcss 2s forwards;
+}
+
+.CSSS {
+    position: absolute;
+    margin-top: 390px;
+}
+
+@keyframes fillcss {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+
+.frameworks {
+    float: right;
+    margin-top: 50px;
+    margin-right: 430px;
+    color: #DAEDFF;
+}
+
+.react {
+    background-color: #DAEDFF;
+    animation: fillreact 2s forwards;
+}
+
+.REACTT {
+    margin-top: -15px;
+    position: absolute;
+}
+
+@keyframes fillreact {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+.materia {
+    float: right;
+    margin-top: 210px;
+    margin-right: -75px;
+    color: #DAEDFF;
+}
+
+.desarrolloweb {
+    background-color: #DAEDFF;
+    animation: filldesarrolloweb 2s forwards;
+}
+
+.DESARROLLOWEBB {
+    position: absolute;
+    margin-top: -15px;
+}
+
+@keyframes filldesarrolloweb {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+.basedatos {
+    background-color: #DAEDFF;
+    animation: fillbasedatos 2s forwards;
+}
+
+.BASEDATOSS {
+    position: absolute;
+    margin-top: 65px;
+}
+
+@keyframes fillbasedatos {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.sistemaoperativos {
+    background-color: #DAEDFF;
+    animation: fillsistemaoperativos 2s forwards;
+}
+
+.SISTEMAOPERATIVOSS {
+    position: absolute;
+    margin-top: 145px;
+}
+
+@keyframes fillsistemaoperativos {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.redescomputadores {
+    background-color: #DAEDFF;
+    animation: fillredescomputadores 2s forwards;
+}
+
+.REDESCOMPUTADORESS {
+    margin-top: 225px;
+    position: absolute;
+}
+
+@keyframes fillredescomputadores {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+/*SECCION 3*/
+
+#seccion3 {
+    height: 650px;
+    background-image: linear-gradient(120deg, #DAEDFF 0%, #c2e9fb 100%);
+    margin-top: -16px;
+    color: #1581ED;
+}
+
+
+.primerTituloTC {
+    margin-left: 550px;
+    position: absolute;
+    text-decoration: underline;
+}
+
+.carta {
+    color: #1581ED;
+    border: solid;
+    height: 350px;
+    width: 350px;
+    margin-top: 150px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+
+
+.imgAuto
+{
+    height: 150px;
+    margin-left:40px;
+    margin-top: -5px;
+}
+
+.contenidoC {
+    margin-top: 190px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tituloAutomotora {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+}
+
+.carta2 {
+    color: #1581ED;
+    border: solid;
+    height: 350px;
+    width: 350px;
+    margin-top: 150px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 700px;
+}
+
+.imgclinica {
+    height: 150px;
+    position: relative;
+    margin-left: 45px;
+    margin-top: -10px;
+}
+
+.contenidoC2 {
+    margin-top: 185px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tituloClinica {
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+
+/*SECCION 4*/
+
+#seccion4 {
+    height: 250px;
+    background-image: linear-gradient(120deg, #1581ED 0%, #c2e9fb 100%);
+    margin-top: -16px;
+    color: #1581ED;
+}
+
+.primerTituloCC {
+    color: #DAEDFF;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 550px;
+    text-decoration: underline;
+}
+
+.logoContactame {
+    position: absolute;
+    height: 55px;
+    margin-top: 120px;
+}
+
+.instagram {
+    margin-left: 600px;
+}
+
+.linkedin {
+    margin-left: 350px;
+}
+
+.wsp {
+    margin-left: 850px;
+}
+
+
+
+
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 952px)
+{
+
+    /*NAVBAR*/
+
+    /*NAVBAR*/
+
+    nav ul li a {
+        font-size: 12px;
+        padding: 1px;
+    }
+
+    .Iconos {
+        height: 11px;
+    }
+
+    .logo {
+        margin-top: 5px;
+        margin-left: 10px;
+        position: absolute;
+        text-shadow: 7px 4px 5px blue;
+        font-size: 28px;
+
+    }
+
+
+
+    /*SECCION 1*/
+
+    .imagenMia {
+        margin-left: 70px;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+
+    .textoPresen {
+        margin-top: 120px;
+        margin-left: 330px;
+    }
+
+    .tituloAcerca {
+        margin-top: -10px;
+    }
+
+    .parrafoAcerca {
+        margin-top: 0px;
+        text-align: justify;
+    }
+
+
+    /*SECCION 2*/
+
+    .primerTituloSC {
+        margin-left: 330px;
+    }
+
+
+    .lenguajes {
+        margin-left: 20px;
+    }
+
+    .frameworks {
+        margin-top: 55px;
+        position: absolute;
+        margin-left: 450px;
+    }
+
+    .materia {
+        margin-left: 450px;
+        position: absolute;
+        margin-top: 200px;
+    }
+
+    /*SECCION 3*/
+
+    .primerTituloTC {
+        margin-left: 350px;
+        margin-top: 20px;
+    }
+
+    .carta {
+        margin-left: 60px;
+    }
+
+    .carta2 {
+        margin-left: 460px;
+    }
+
+    /*SECCION 4*/
+
+    .primerTituloCC {
+        margin-left: 370px;
+    }
+
+    .linkedin {
+        margin-left: 150px;
+    }
+
+    .instagram {
+        margin-left: 400px;
+    }
+
+    .wsp {
+        margin-left: 650px;
+    }
+
+}
+
+@media (max-width: 858px) 
+{
+    /*NAVBAR*/
+
+    nav ul li a {
+        font-size: 11px;
+        padding: 1px;
+    }
+
+    .Iconos {
+        height: 10px;
+    }
+
+    .logo {
+        margin-top: 6px;
+        margin-left: 10px;
+        position: absolute;
+        text-shadow: 7px 4px 5px blue;
+        font-size: 25px;
+
+    }
+
+
+    /*SECCION 1*/
+
+    .imagenMia {
+        margin-left: 30px;
+        border-radius: 20px;
+    }
+
+    .textoPresen {
+        margin-left: 280px;
+    }
+
+    .tituloAcerca {
+        margin-top: -20px;
+    }
+
+    /*SECCION 2*/
+
+    .primerTituloSC {
+        margin-left: 330px;
+    }
+
+    .skills {
+        height: 15px;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    /*SECCION 3*/
+
+    .primerTituloTC {
+        margin-left: 330px;
+    }
+
+    .carta {
+        margin-left: 20px;
+    }
+
+    .carta2 {
+        margin-left: 410px;
+    }
+
+    /*SECCION 4*/
+
+    .primerTituloCC {
+        margin-left: 330px;
+    }
+
+    .linkedin {
+        margin-left: 120px;
+    }
+
+    .instagram {
+        margin-left: 370px;
+    }
+
+    .wsp {
+        margin-left: 610px;
+    }
+
+}
+
+@media (max-width:640px)
+{
+    /*NAVBAR*/
+
+    .checkbtn
+    {
+        display: block;
+    }
+
+    ul
+    {
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        background: blue;
+        top:30px;
+        left: -120%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li
+    {
+        display:block;
+        margin:50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a
+    {
+        font-size: 20px;
+    }
+
+    li a:hover, li a:active
+    {
+        background: none;
+        color: red;
+    }
+
+    .Iconos
+    {
+        height: 20px;
+    }
+
+    .barras
+    {
+        height: 30px;
+    }
+
+    #check:checked ~ul
+    {
+        left: 0;
+    }
+
+
+
+    /*SECCION 1*/
+
+    .imagenMia
+    {
+        height: 270px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .textoPresen
+    {
+        margin-left: 240px;
+    }
+
+    .primerTituloPC
+    {
+        font-size: 25px;
+    }
+
+    .segundoTituloPC
+    {
+        font-size: 20px;
+    }
+
+    .tercerTituloPC
+    {
+        font-size:15px;
+    }
+
+    .textoAcerca
+    {
+        margin-top: 380px;
+        width: 500px;
+        margin-left: 40px;
+    }
+
+
+    /*SECCION 2*/
+
+    .primerTituloSC
+    {
+        font-size:23px;
+        margin-left:175px
+    }
+
+    .container
+    {
+        width: 230px;
+    }
+
+    .lenguajes
+    {
+        margin-left: 30px;
+    }
+
+    .frameworks
+    {
+        margin-left: 310px;
+    }
+
+    .materia
+    {
+        margin-left: 310px;
+    }
+
+    /*SECCION 3*/
+
+    .primerTituloTC
+    {
+        font-size: 23px;
+        margin-left:220px;
+    }
+
+    .carta
+    {
+        width: 240px;
+        height: 350px;
+        margin-left:25px;
+    }
+
+    .imgAuto
+    {
+        height: 150px;
+        width: 200px;
+        margin-left:20px;
+        margin-top:-20px;
+    }
+
+    .contenidoC
+    {
+        font-size: 12px;
+        margin-top: 180px;
+    }
+
+    .carta2
+    {
+        width: 240px;
+        height: 350px;
+        margin-left: 300px;
+    }
+
+    .tituloClinica
+    {
+        margin-left: 15px;
+    }
+
+    .imgclinica
+    {
+        height: 150px;
+        width: 220px;
+        margin-left: 10px;
+    }
+
+    .contenidoC2
+    {
+        font-size: 12px;
+    }
+
+    /*SECCION 4*/
+
+    .primerTituloCC
+    {
+        margin-left: 220px;
+        font-size: 23px;
+    }
+
+    .linkedin
+    {
+        height: 45px;
+        margin-left: 80px;
+    }
+    .instagram
+    {
+        height: 45px;
+        margin-left: 270px;
+    }
+
+    .wsp
+    {
+        height:45px;
+        margin-left:440px;
+    }
+}
