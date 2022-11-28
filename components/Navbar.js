@@ -12,7 +12,7 @@ const Navbar =() =>
     <>
 
         <div className="contenedor_completo">
-            <nav className="fixed-top">
+            <nav>
                 <input type="checkbox" id="check"></input>
                 <label for="check" class="checkbtn">
                     <FontAwesomeIcon icon={faBars} className="barras"/>
