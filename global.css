@@ -97,6 +97,7 @@ li a:hover {
     padding: 0;
     margin: 0;
     color: #1581ED;
+    width: 100vh;
 }
 
 .primerTitulo {
@@ -578,11 +579,6 @@ section img {
 
     /*SECCION 1*/
 
-    #section1
-    {
-        width: 100%;
-
-    }
 
     .imagenMia {
         margin-left: 70px;
@@ -688,10 +684,6 @@ section img {
 
     /*SECCION 1*/
 
-    #section1
-    {
-        width: 100%;
-    }
 
     .imagenMia {
         margin-left: 30px;
@@ -810,14 +802,6 @@ section img {
         left: 0;
     }
 
-
-
-    /*SECCION 1*/
-
-    #section1
-    {
-        width: 100%;
-    }
 
 
     .imagenMia
