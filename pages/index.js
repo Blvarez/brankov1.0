@@ -1,4 +1,6 @@
 import Layout from "../components/Layout";
+
+
 const Index = () =>
 (
 
@@ -138,13 +140,13 @@ const Index = () =>
                     <div className="cabezaC">
                         <div className="cuadradoC"></div>
                         <div className="imagenC">
-                            <img className="imgAuto" src="https://www.crediautos.cl/wp-content/uploads/2021/03/autos-usados-credito-crediautos.jpg" alt="ImagenAutomotora" />
+                            <img className="imgAuto" src="https://i.ibb.co/5rQ7QHM/Automotora.jpg" alt="ImagenAutomotora" />
                         </div>
                     </div>
            
 
                     <div className="contenidoC">
-                        <p> En este proyecto(UNI) se pide crear una aplicacion web con el sistema de agregar, editar, eliminar y listar automoviles en conjunto con una base de datos en mysql con codigo en html, css y java.</p>
+                        <p> En este proyecto(UNI) es sobre una aplicacion web hecha en NetBeans con el sistema de agregar, editar, eliminar y listar automoviles en conjunto con una base de datos en mysql con codigo en html, css y java.</p>
                     </div>
 
                 </div>
@@ -158,12 +160,12 @@ const Index = () =>
                     <div className="cabezaC2">
                         <div className="cuadradoC2"></div>
                         <div className="imagenC2">
-                            <img className="imgclinica" src="https://www.crediautos.cl/wp-content/uploads/2021/03/autos-usados-credito-crediautos.jpg" alt="ImagenAutomotora" />
+                            <img className="imgclinica" src="https://i.ibb.co/JsS8k1Z/imagen-2022-11-28-101240857.png" alt="ImagenAutomotora" />
                         </div>
                     </div>
 
                     <div className="contenidoC2">
-                        <p> En este proyecto(universitario) es sobre una aplicacion Web que se centra a traves de Iniciar Sesion y Registrarse con dos tipos de usuarios(pacientes y medicos) con ello pueden supervisar ambos lados las recetas(crear y eliminar). </p>
+                        <p> En este proyecto(universitario) es sobre una aplicacion Web para la manipulacion de Recetas, Medicamentos y Pacientes con sus respectivos atributos con el uso del Framework de React a traves de Next JS enlazado a una Base de Datos en MySql.. </p>
                     </div>
 
                 </div>
