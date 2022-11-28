@@ -684,6 +684,11 @@ section img {
 
     }
 
+    .nav
+    {
+        width: auto;
+    }
+
 
     /*SECCION 1*/
 
@@ -803,6 +808,11 @@ section img {
     #check:checked ~ul
     {
         left: 0;
+    }
+
+    .nav
+    {
+        width: auto;
     }
 
 
