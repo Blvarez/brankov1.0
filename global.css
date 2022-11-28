@@ -43,6 +43,7 @@ nav {
     background-color: #1581ED;
     height: 40px;
     margin: 0px;
+    width: 100vh;
 }
 
 nav ul {
@@ -684,11 +685,6 @@ section img {
 
     }
 
-    .nav
-    {
-        width: auto;
-    }
-
 
     /*SECCION 1*/
 
@@ -810,10 +806,6 @@ section img {
         left: 0;
     }
 
-    .nav
-    {
-        width: auto;
-    }
 
 
 
