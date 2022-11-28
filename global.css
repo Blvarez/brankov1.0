@@ -743,7 +743,8 @@ section img {
 
 }
 
-@media (max-width:750px)
+
+@media (max-width:640px)
 {
     /*NAVBAR*/
 
