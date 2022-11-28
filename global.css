@@ -578,6 +578,12 @@ section img {
 
     /*SECCION 1*/
 
+    #section1
+    {
+        width: 952px;
+
+    }
+
     .imagenMia {
         margin-left: 70px;
         margin-top: 50px;
@@ -681,6 +687,11 @@ section img {
 
 
     /*SECCION 1*/
+
+    #section1
+    {
+        width: 858px;
+    }
 
     .imagenMia {
         margin-left: 30px;
@@ -802,6 +813,12 @@ section img {
 
 
     /*SECCION 1*/
+
+    #section1
+    {
+        width: 640px;
+    }
+
 
     .imagenMia
     {
