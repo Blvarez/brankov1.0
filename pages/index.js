@@ -152,7 +152,7 @@ const Index = () =>
                 </div>
             </a>
 
-            <a target="_blank" href="#seccion3" id="link">
+            <a target="_blank" href="https://github.com/Blvarez/Proyecto-Clinica" id="link">
                 <div className="carta2">
 
                     <h2 className="tituloClinica">CLINICA WEB APP</h2>
