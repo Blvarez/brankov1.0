@@ -1,23 +1,9 @@
-/*BACKGROUND*/
-/*html, body
-{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: scroll;
-}
-*/
-
-
 body {
     margin: 0px;
 }
 
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive;
 }
 
 
@@ -29,7 +15,7 @@ body {
     margin-top: 4px;
     margin-left: 10px;
     position: absolute;
-    text-shadow: 7px 4px 5px blue;
+    text-shadow: 7px 4px 5px #0b7df0;
     font-size: 30px;
 
 }
