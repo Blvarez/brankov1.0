@@ -875,6 +875,7 @@ section img {
 
     .textoPresen {
         margin-left: 240px;
+        margin-top: -50px;
         border: solid black;
         width: 300px;
     }
@@ -902,7 +903,8 @@ section img {
 
     .primerTituloSC {
         font-size: 23px;
-        margin-left: 175px
+        margin-left: 175px;
+        margin-top: -15px;
     }
 
     .container {
@@ -931,7 +933,7 @@ section img {
     .carta {
         width: 240px;
         height: 350px;
-        margin-left: 25px;
+        margin-left: 17px;
     }
 
     .imgAuto {
@@ -949,7 +951,7 @@ section img {
     .carta2 {
         width: 240px;
         height: 350px;
-        margin-left: 300px;
+        margin-left: 282px;
     }
 
     .tituloClinica {
