@@ -608,6 +608,7 @@ section img {
     .textoPresen {
         margin-top: 120px;
         margin-left: 330px;
+        border: solid red;
     }
 
     .tituloAcerca {
@@ -735,6 +736,7 @@ section img {
 
     .textoPresen {
         margin-left: 280px;
+        border: solid green;
     }
 
     .tituloAcerca {
@@ -873,6 +875,7 @@ section img {
 
     .textoPresen {
         margin-left: 240px;
+        border: solid black;
     }
 
     .primerTituloPC {
