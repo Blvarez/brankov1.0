@@ -1,0 +1,113 @@
+
+
+@media (max-width: 858px) {
+    /*ANCHOS*/
+
+    nav {
+        width: 100vh;
+    }
+
+    #seccion1 {
+        width: 100vh;
+    }
+
+    #seccion2 {
+        width: 100vh;
+    }
+
+    #seccion3 {
+        width: 100vh;
+    }
+
+    #seccion4 {
+        width: 100vh;
+    }
+
+
+
+
+    /*NAVBAR*/
+
+    nav ul li a {
+        font-size: 11px;
+        padding: 1px;
+    }
+
+    .Iconos {
+        height: 10px;
+    }
+
+    .logo {
+        margin-top: 6px;
+        margin-left: 10px;
+        position: absolute;
+        text-shadow: 7px 4px 5px blue;
+        font-size: 25px;
+
+    }
+
+
+    /*SECCION 1*/
+
+
+    .imagenMia {
+        margin-left: 30px;
+        border-radius: 20px;
+    }
+
+    .textoPresen {
+        margin-left: 280px;
+        border: solid green;
+    }
+
+    .tituloAcerca {
+        margin-top: -20px;
+    }
+
+    /*SECCION 2*/
+
+    .primerTituloSC {
+        margin-left: 330px;
+    }
+
+    .skills {
+        height: 15px;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    /*SECCION 3*/
+
+    .primerTituloTC {
+        margin-left: 330px;
+    }
+
+    .carta {
+        margin-left: 20px;
+    }
+
+    .carta2 {
+        margin-left: 410px;
+    }
+
+    /*SECCION 4*/
+
+    .primerTituloCC {
+        margin-left: 330px;
+    }
+
+    .linkedin {
+        margin-left: 120px;
+    }
+
+    .instagram {
+        margin-left: 370px;
+    }
+
+    .wsp {
+        margin-left: 610px;
+    }
+
+}
