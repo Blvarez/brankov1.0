@@ -3,7 +3,7 @@ body {
 }
 
 * {
-    font-family:  monospace;
+    font-family:  'Courier New', Courier, monospace;
 }
 
 
@@ -150,7 +150,7 @@ section img {
 
 
 .primerTituloSC {
-    margin-left: 620px;
+    margin-left: 600px;
     margin-top: 45px;
     position: absolute;
     color: #DAEDFF;
@@ -159,7 +159,7 @@ section img {
 
 .lenguajes {
     float: left;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 120px;
     color: #DAEDFF;
 }
@@ -299,7 +299,7 @@ section img {
 
 .frameworks {
     float: right;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-right: 430px;
     color: #DAEDFF;
 }
@@ -326,7 +326,7 @@ section img {
 
 .materia {
     float: right;
-    margin-top: 210px;
+    margin-top: 230px;
     margin-right: -75px;
     color: #DAEDFF;
 }
