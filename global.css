@@ -44,7 +44,7 @@ nav {
     height: 40px;
     margin: 0px;
     position: fixed;
-    width: 1455px;
+    width: 100%;
     z-index: 2;
 }
 
