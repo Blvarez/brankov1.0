@@ -876,6 +876,7 @@ section img {
     .textoPresen {
         margin-left: 240px;
         border: solid black;
+        width: 300px;
     }
 
     .primerTituloPC {
