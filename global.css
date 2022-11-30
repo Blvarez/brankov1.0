@@ -43,6 +43,9 @@ nav {
     background-color: #1581ED;
     height: 40px;
     margin: 0px;
+    position: fixed;
+    width: 1455px;
+    z-index: 2;
 }
 
 nav ul {
@@ -551,7 +554,7 @@ section img {
     /*ANCHOS*/
 
     nav {
-        width: 100vh;
+        max-width: 952px;
     }
 
     #seccion1 {
