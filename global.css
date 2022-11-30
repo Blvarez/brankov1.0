@@ -151,7 +151,7 @@ section img {
 
 .primerTituloSC {
     margin-left: 620px;
-    margin-top: 20px;
+    margin-top: 45px;
     position: absolute;
     color: #DAEDFF;
     text-decoration: underline;
@@ -423,6 +423,7 @@ section img {
 
 .primerTituloTC {
     margin-left: 590px;
+    margin-top: 45px;
     position: absolute;
     text-decoration: underline;
 }
@@ -506,7 +507,7 @@ section img {
 .primerTituloCC {
     color: #DAEDFF;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 45px;
     margin-left: 630px;
     text-decoration: underline;
 }

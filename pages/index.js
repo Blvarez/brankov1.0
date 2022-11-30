@@ -165,7 +165,7 @@ const Index = () =>
                     </div>
 
                     <div className="contenidoC2">
-                        <p> En este proyecto(universitario) es sobre una aplicacion Web para la manipulacion de Recetas, Medicamentos y Pacientes con sus respectivos atributos con el uso del Framework de React a traves de Next JS enlazado a una Base de Datos en MySql.. </p>
+                        <p> En este proyecto(universitario) es sobre una aplicacion Web para la manipulacion de Recetas, Medicamentos y Pacientes con sus respectivos atributos con el uso del Framework de React a traves de Next JS enlazado a una Base de Datos en MySql.</p>
                     </div>
 
                 </div>
