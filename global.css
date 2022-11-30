@@ -43,7 +43,6 @@ nav {
     background-color: #1581ED;
     height: 40px;
     margin: 0px;
-    width: 100vh;
 }
 
 nav ul {
@@ -87,8 +86,7 @@ li a:hover {
 
 /*SECCION 1*/
 
-.imagenMia
-{
+.imagenMia {
     border-radius: 30px;
 }
 
@@ -98,7 +96,6 @@ li a:hover {
     padding: 0;
     margin: 0;
     color: #1581ED;
-    width: 100vh;
 }
 
 .primerTitulo {
@@ -160,7 +157,6 @@ section img {
     background-image: linear-gradient(120deg, #1581ED 0%, #c2e9fb 100%);
     margin-top: -16px;
     height: 650px;
-    width: 100vh;
 }
 
 
@@ -433,7 +429,6 @@ section img {
     background-image: linear-gradient(120deg, #DAEDFF 0%, #c2e9fb 100%);
     margin-top: -16px;
     color: #1581ED;
-    width: 100vh;
 }
 
 
@@ -456,10 +451,9 @@ section img {
 
 
 
-.imgAuto
-{
+.imgAuto {
     height: 150px;
-    margin-left:20px;
+    margin-left: 20px;
     margin-top: -10px;
 }
 
@@ -518,7 +512,6 @@ section img {
     background-image: linear-gradient(120deg, #1581ED 0%, #c2e9fb 100%);
     margin-top: -16px;
     color: #1581ED;
-    width: 100vh;
 }
 
 .primerTituloCC {
@@ -554,10 +547,30 @@ section img {
 
 /*RESPONSIVE*/
 
-@media (max-width: 952px)
-{
+@media (max-width: 952px) {
+    /*ANCHOS*/
 
-    /*NAVBAR*/
+    nav {
+        width: 100vh;
+    }
+
+    #seccion1 {
+        width: 100vh;
+    }
+
+    #seccion2 {
+        width: 100vh;
+    }
+
+    #seccion3 {
+        width: 100vh;
+    }
+
+    #seccion4 {
+        width: 100vh;
+    }
+
+
 
     /*NAVBAR*/
 
@@ -582,7 +595,6 @@ section img {
 
 
     /*SECCION 1*/
-
 
     .imagenMia {
         margin-left: 70px;
@@ -663,8 +675,32 @@ section img {
 
 }
 
-@media (max-width: 858px) 
-{
+@media (max-width: 858px) {
+    /*ANCHOS*/
+
+    nav {
+        width: 100vh;
+    }
+
+    #seccion1 {
+        width: 100vh;
+    }
+
+    #seccion2 {
+        width: 100vh;
+    }
+
+    #seccion3 {
+        width: 100vh;
+    }
+
+    #seccion4 {
+        width: 100vh;
+    }
+
+
+
+
     /*NAVBAR*/
 
     nav ul li a {
@@ -751,93 +787,104 @@ section img {
 }
 
 
-@media (max-width:640px)
-{
+@media (max-width:640px) {
+    /*ANCHOS*/
+
+    nav {
+        width: 100vh;
+    }
+
+    #seccion1 {
+        width: 100vh;
+    }
+
+    #seccion2 {
+        width: 100vh;
+    }
+
+    #seccion3 {
+        width: 100vh;
+    }
+
+    #seccion4 {
+        width: 100vh;
+    }
+
+
+
+
     /*NAVBAR*/
 
-    .checkbtn
-    {
+    .checkbtn {
         display: block;
     }
 
-    ul
-    {
+    ul {
         z-index: 1;
         position: fixed;
         width: 100%;
-        height:100vh;
+        height: 100vh;
         background: blue;
-        top:30px;
+        top: 30px;
         left: -120%;
         text-align: center;
         transition: all .5s;
     }
 
-    nav ul li
-    {
-        display:block;
-        margin:50px 0;
+    nav ul li {
+        display: block;
+        margin: 50px 0;
         line-height: 30px;
     }
 
-    nav ul li a
-    {
+    nav ul li a {
         font-size: 20px;
     }
 
-    li a:hover, li a:active
-    {
+    li a:hover,
+    li a:active {
         background: none;
         color: red;
     }
 
-    .Iconos
-    {
+    .Iconos {
         height: 20px;
     }
 
-    .barras
-    {
+    .barras {
         height: 30px;
     }
 
-    #check:checked ~ul
-    {
+    #check:checked~ul {
         left: 0;
     }
 
 
 
 
-    .imagenMia
-    {
+    .imagenMia {
         height: 270px;
         border-radius: 10px;
         margin-left: 20px;
     }
 
-    .textoPresen
-    {
+    .textoPresen {
         margin-left: 240px;
     }
 
-    .primerTituloPC
-    {
+    .primerTituloPC {
         font-size: 25px;
     }
 
-    .segundoTituloPC
-    {
+    .segundoTituloPC {
         font-size: 20px;
     }
 
-    .tercerTituloPC
-    {
-        font-size:15px;
+    .tercerTituloPC {
+        font-size: 15px;
     }
 
-    .textoAcerca
-    {
+    .textoAcerca {
         margin-top: 380px;
         width: 500px;
         margin-left: 40px;
@@ -846,107 +893,91 @@ section img {
 
     /*SECCION 2*/
 
-    .primerTituloSC
-    {
-        font-size:23px;
-        margin-left:175px
+    .primerTituloSC {
+        font-size: 23px;
+        margin-left: 175px
     }
 
-    .container
-    {
+    .container {
         width: 230px;
     }
 
-    .lenguajes
-    {
+    .lenguajes {
         margin-left: 30px;
     }
 
-    .frameworks
-    {
+    .frameworks {
         margin-left: 310px;
     }
 
-    .materia
-    {
+    .materia {
         margin-left: 310px;
     }
 
     /*SECCION 3*/
 
-    .primerTituloTC
-    {
+    .primerTituloTC {
         font-size: 23px;
-        margin-left:220px;
+        margin-left: 220px;
     }
 
-    .carta
-    {
+    .carta {
         width: 240px;
         height: 350px;
-        margin-left:25px;
+        margin-left: 25px;
     }
 
-    .imgAuto
-    {
+    .imgAuto {
         height: 150px;
         width: 200px;
-        margin-left:20px;
-        margin-top:-20px;
+        margin-left: 20px;
+        margin-top: -20px;
     }
 
-    .contenidoC
-    {
+    .contenidoC {
         font-size: 12px;
         margin-top: 180px;
     }
 
-    .carta2
-    {
+    .carta2 {
         width: 240px;
         height: 350px;
         margin-left: 300px;
     }
 
-    .tituloClinica
-    {
+    .tituloClinica {
         margin-left: 15px;
     }
 
-    .imgclinica
-    {
+    .imgclinica {
         height: 150px;
         width: 220px;
         margin-left: 10px;
     }
 
-    .contenidoC2
-    {
+    .contenidoC2 {
         font-size: 12px;
     }
 
     /*SECCION 4*/
 
-    .primerTituloCC
-    {
+    .primerTituloCC {
         margin-left: 220px;
         font-size: 23px;
     }
 
-    .linkedin
-    {
+    .linkedin {
         height: 45px;
         margin-left: 80px;
     }
-    .instagram
-    {
+
+    .instagram {
         height: 45px;
         margin-left: 270px;
     }
 
-    .wsp
-    {
-        height:45px;
-        margin-left:440px;
+    .wsp {
+        height: 45px;
+        margin-left: 440px;
     }
 }
