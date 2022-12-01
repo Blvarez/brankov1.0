@@ -7,7 +7,7 @@ const Index = () =>
 
     <Layout>
         <section id="seccion1">
-            <img className="imagenMia" onmouseout="this.src='https://i.ibb.co/gtR5YSW/perrito.jpg';" onmouseover="this.src='https://i.ibb.co/jMGWf4B/Foto-Portafolio.jpg';" src="https://i.ibb.co/gtR5YSW/perrito.jpg" alt="Branko Alvarez" />
+            <img className="imagenMia" src="https://www.rightclickit.com.au/wp-content/uploads/2018/09/Image-Coming-Soon-ECC.png" alt="Proximamente...." />
             <div className="textoPresen">
                 <h1 className="primerTituloPC">Hola,</h1>
                 <h2 className="segundoTituloPC">Soy Branko Antonio Alvarez Molina </h2>
