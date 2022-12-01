@@ -77,7 +77,7 @@ li a:hover {
 
 .imagenMia {
     border-radius: 30px;
-    width: 400px;
+    width: 200px;
 }
 
 #seccion1 {
@@ -591,7 +591,7 @@ section img {
         margin-left: 70px;
         margin-top: 50px;
         border-radius: 20px;
-        width: 300px;
+        width: 150px;
     }
 
     .textoPresen {
@@ -749,7 +749,7 @@ section img {
         height: 270px;
         border-radius: 10px;
         margin-left: 20px;
-        width: 200px;
+        width: 150px;
     }
 
     .textoPresen {
