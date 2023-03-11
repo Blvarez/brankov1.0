@@ -20,7 +20,7 @@ const Index = () =>
                     Soy estudiante de Cuarto Anio de la carrera de Ingenieria en Computacion e Informatica de la Universidad Andres Bello
                     en estos momentos me encuentro en la busqueda de mi Practica Profesional me he desempaniado anteriormente en trabajos
                     donde he tenido que estar en equipo(Ferreteria y Panaderia) y bajo presion(Atencion al Publico en un Cine). En estos
-                    momentos me encuentro con una gran disponibilidad para aprender y trabajar.
+                    momentos me encuentro con una gran disponibilidad para aprender y trabajar...
                 </p>
 
 
